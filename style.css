@@ -1,0 +1,148 @@
+
+* {box-sizing: border-box}
+
+body {
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2{
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    padding: 20px 40px;
+    background: -webkit-linear-gradient(#FF0A54, #0096c7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+p {
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    padding: 5px 50px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: #888;
+    text-transform: uppercase;
+    
+}
+
+.title {
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: #00000027;
+    text-transform: uppercase;
+    
+}
+
+.keyword{
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    background: -webkit-linear-gradient(#FF0A54, #0096c7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    text-transform: uppercase;  
+}
+
+.legend{
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    line-height: 1px;
+    color: #adb5bd;
+    text-decoration: none 
+}
+
+.legend:hover{
+    background: -webkit-linear-gradient(#FF0A54, #0096c7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+
+#content, html, body {
+    height: 100%;
+}
+
+
+
+.dot{
+    height: 20px;
+    width: 20px;
+    background: -webkit-linear-gradient(#FF0A54, #0096c7);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 10;
+}
+
+
+
+#right {
+    float: left;
+    width: 40%;
+    height: 100% ;
+    overflow-y: scroll;
+    cursor: url('imagens/circle.png'), auto;
+    scroll-behavior: auto smooth;
+
+}
+
+.right::-webkit-scrollbar {
+    width: 5px;
+    height: 1px;
+    border: 0.5px;
+    border-radius: 5px;
+ }
+ 
+ .right::-webkit-scrollbar-thumb {
+    background: linear-gradient(#FF0A54, #0096c7);
+
+ 
+ }
+
+.left {
+    float: left;
+    width: 60%;
+    height: 100% ;
+    overflow-y: scroll;
+    border-left: 1pt;
+    border-right: 0pt;
+    border-bottom: 0pt;
+    border-top: 0pt;
+    border-style: solid;
+    border-color:#00000027;
+    background-color: white;
+    cursor: url('imagens/circle.png'), auto;
+    scroll-behavior: auto smooth;
+    background: #fff;
+    boo
+}
+
+.left::-webkit-scrollbar {
+    width: 5px;
+    height: 1px;
+    border: 0.5px;
+    border-radius: 5px;
+ }
+ 
+ .left::-webkit-scrollbar-thumb {
+    background: linear-gradient(#FF0A54, #0096c7);
+ }
+
+
